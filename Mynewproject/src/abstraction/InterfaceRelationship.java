@@ -26,7 +26,7 @@ class Car12 implements move
 	@Override
 	public void move1() {
 	
-		System.out.println("car is moving with speed"+speed);
+		System.out.println("car is moving with speed "+speed);
 		
 	}
 	

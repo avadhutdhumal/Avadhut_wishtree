@@ -21,7 +21,7 @@ abstract class Television
 	
 
 
-abstract public	 void specfic_Implementa();
+	 abstract public void specfic_Implementa();
  			
 	
 }

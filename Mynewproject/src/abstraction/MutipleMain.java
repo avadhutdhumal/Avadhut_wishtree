@@ -22,9 +22,6 @@ class Multiple implements A1,B
 	System.out.println("show method implemented");
 	}
 
-	
-
-	
 }
 
 public class MutipleMain {
