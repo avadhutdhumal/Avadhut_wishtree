@@ -3,7 +3,7 @@
  
 Abstraction is a process of hiding the implementation details and showing only functionality to the user.
 
-Another way, it shows only essential things to the user and hides the internal details, 
+It shows only essential things to the user and hides the internal details, 
 for example, sending SMS where you type the text and send the message.
  You don't know the internal processing about the message delivery.
 */
@@ -14,22 +14,19 @@ abstract class Coffee {
 	abstract void recipie();
 }
 
-class IrishCoffee extends Coffee 
-{
+class IrishCoffee extends Coffee {
 
 	void recipie() {
 		System.out.println("Irish Capachino Recipie");
 	}
 }
 
-class Cold_Coffee extends Coffee
-{
+class Cold_Coffee extends Coffee {
 	@Override
-	void recipie()
-	{
+	void recipie() {
 		System.out.println("Cold Coffee Made from Milk And IceCream");
 	}
-	}
+}
 
 public class Abstarction1 {
 	public static void main(String args[]) {

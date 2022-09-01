@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Simpleintrest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		float p, r, t;
 		Scanner sc = new Scanner(System.in);
 

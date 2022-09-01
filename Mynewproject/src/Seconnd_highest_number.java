@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Seconnd_highest_number {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int a, b, c;
 		System.out.println("Enter first number: ");
