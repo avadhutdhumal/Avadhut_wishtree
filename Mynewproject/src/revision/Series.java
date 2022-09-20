@@ -17,9 +17,9 @@ public class Series {
 		}
 		sc.close();
 	}
-		void series2 ()	
 	
-	{
+	void series2 ()	{
+		
 		int num1,s=2;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter Range: ");

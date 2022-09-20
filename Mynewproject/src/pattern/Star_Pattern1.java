@@ -1,4 +1,14 @@
 package pattern;
+
+/*
+
+******
+****
+***
+**
+*
+
+  */
 public class Star_Pattern1 {
 
 	public static void main(String[] args) {

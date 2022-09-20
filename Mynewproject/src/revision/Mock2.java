@@ -3,13 +3,25 @@ package revision;
 import practice_array.Mock;
 
 public class Mock2 {
-
-	public static void main(String[] args) {
-		Mock m=new Mock(4500);
-		System.out.println(m.address);
-		System.out.println(m.contact);
-		System.out.println(m.id);
-		System.out.println(m.name);
+	    public static void main(String[] args) {
+	      int num=121;
+	     int r;
+	     
+	       int t=num;
+	      int rev = 0;
+	      while(num>0)
+	      {
+	          r=num%10;
+	          rev=(rev*10)+r;
+	          num=num/10;
+	      }
+	      if(rev==t)
+	      {
+	      System.out.println("Palindrom");
+	      }
+	      else{
+	      System.out.println("Not Palindrom");
+	          }
+	}
 	}
 
-}

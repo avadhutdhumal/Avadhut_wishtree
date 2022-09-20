@@ -19,6 +19,7 @@ public class Student {
 	public static void main(String[] args)
     {
 		Student a[]=new Student[2];
+		@SuppressWarnings("resource")
 		Scanner sc=new Scanner(System.in);
 		
 		for(int i=0;i<a.length;i++)

@@ -15,7 +15,7 @@ public class Base_Index_Power {
 		while(index!=0)
 		{
 			power=power*base;
-			--index;
+			index--;
 		}
 			System.out.println("Power of number is: " +power);
 			sc.close();

@@ -12,6 +12,7 @@ public class Account {
 	
 	Account(long accountNo,String customerName)
 	{
+//		this();
 		this.accountNo=accountNo;
 		this.customerName=customerName;
 		System.out.println("I am in parameterized constructor");

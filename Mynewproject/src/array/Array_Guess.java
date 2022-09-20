@@ -11,7 +11,7 @@ public class Array_Guess {
 		int[] guess = new int[5];
 		boolean present = false;
 
-		System.out.println("Enter Elemnets");
+		System.out.println("Enter Elements");
 		for (int i = 0; i < guess.length; i++) {
 			guess[i] = sc.nextInt();
 		}
