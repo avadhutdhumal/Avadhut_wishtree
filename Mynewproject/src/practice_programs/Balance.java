@@ -16,7 +16,7 @@ class Bank{
 	if(amt>bal) 
 		throw new InputMismatchException("Insufficient balance");
 	else 
-	System.out.println("Take Amount ");
+	System.out.println("Please Collect Cash");
 	System.out.println("Balance is" +bal);
 	}
 }

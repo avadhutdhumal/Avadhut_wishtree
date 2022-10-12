@@ -28,7 +28,8 @@ class Students {
 
 public class Student2 {
 
-		    public static void main(String[] args) {
+		    @SuppressWarnings("resource")
+			public static void main(String[] args) {
 		        Students[] s = new Students[5];
 
 		        Scanner sc = new Scanner(System.in);
