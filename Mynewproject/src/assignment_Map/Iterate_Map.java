@@ -27,7 +27,7 @@ public class Iterate_Map {
 			System.out.println(it.next());
 		}
 		
-		System.out.println("********Using Values********");
+		System.out.println("\n********Using Values********");
 		
 		Collection col=hm.values();
 	    Iterator<String> it1=	col.iterator();
@@ -36,16 +36,15 @@ public class Iterate_Map {
 		System.out.println(it1.next());
 	    }
 		
-	    System.out.println("********Using Entry Set********");
+	    System.out.println("\n********Using Entry Set********");
 	    
 	    Set<Entry<Integer,String>> ent=hm.entrySet();
 	    
 	      Iterator<Entry<Integer,String >> it2= ent.iterator();
-	      System.out.println("Enter id");
 	      while(it2.hasNext())
 	      {
 	    	Entry<Integer,String>  en= it2.next();
-	    	Integer a=en.getKey();
+	    	System.out.println(en.getKey() +"  "+ en.getValue());
 	      }
 	}
 

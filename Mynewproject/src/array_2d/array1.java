@@ -23,6 +23,8 @@ public class array1 {
 			}
 		}
 		
+		System.out.println(arr);
+		
 		for(int i=0; i<rows;  i++)
 		{
 			System.out.println();

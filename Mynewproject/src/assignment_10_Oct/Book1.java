@@ -1,6 +1,7 @@
 package assignment_10_Oct;
 
-public class Book1 {
+public class Book1
+{
 	int b_id;
 	String name;
 	int price;
@@ -12,5 +13,5 @@ public class Book1 {
 		this.price = price;
 		this.author_name = author_name;
 	}
-
-}
+	
+	}

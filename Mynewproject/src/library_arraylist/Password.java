@@ -13,6 +13,7 @@ public class Password {
 		while(count<3)
 		{
 		
+	@SuppressWarnings("resource")
 	Scanner sc=new Scanner(System.in);
 	System.out.println("Enter Username: ");
 	String uname=sc.next();
@@ -21,8 +22,8 @@ public class Password {
 	
 	if(uname.equals(u_name) && passw.equals(pass))
 	{
-		Manipulate m= new Manipulate();
-		break;	
+		Manipulate m1=new Manipulate();
+		break;
 	}
 	else
 	{

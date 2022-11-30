@@ -58,19 +58,21 @@ public class Employee_main {
 		Iterator<Employee> it3=	li9.iterator();
 		System.out.println("\n***|MAXIMUM SALARY|***");
 		System.out.println();
-		
+		int max=0;
 		while(it3.hasNext())
 		{
 			Employee eee=it3.next();
-			int max=0;
+			
 			
 			if(eee.e_salary>max)
 		{
 			max=eee.e_salary;
-			System.out.println(max);
-		}
 			
 		}
+			
+			
+		}
+		System.out.println("Maximum Salary Is: "+max);
 		
 		
 		

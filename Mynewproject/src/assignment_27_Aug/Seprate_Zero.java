@@ -16,7 +16,8 @@ public class Seprate_Zero {
 			}
 		}
 
-		while (len >= 0) {
+		while (len >= 0)
+		{
 			arr[len] = 0;
 			len--;
 		}

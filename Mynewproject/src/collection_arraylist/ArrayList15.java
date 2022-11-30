@@ -19,10 +19,10 @@ public class ArrayList15 {
 		ArrayList<Integer> al1=new ArrayList<Integer>();
 		al1.add(45);
 		al1.add(88);
-		al1.add(30);
+		al1.add(33);
 		
 		System.out.println(al.lastIndexOf(20));
-	al1.retainAll(al);
+		al1.retainAll(al);
 		
 		System.out.println(al1);
 	

@@ -1,6 +1,11 @@
 package library_arraylist;
 
 public class Book {
+	@Override
+	public String toString() {
+		return "b_id=" + b_id + ", name=" + name + ", price=" + price + ", author_name=" + author_name + "]";
+	}
+
 	int b_id;
 	String name;
 	int price;

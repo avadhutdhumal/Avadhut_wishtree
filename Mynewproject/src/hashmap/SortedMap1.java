@@ -19,7 +19,7 @@ HashMap<Integer,String> hs=new HashMap<>();
 		
 		
 		TreeMap<Integer,String> sm=new TreeMap<Integer,String>(hs);
-		
+		System.out.println(sm);
 		SortedMap<Integer,String> sm1 =	sm.subMap(2, 16);
 		
 		System.out.println(sm1);
